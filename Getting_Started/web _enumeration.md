@@ -87,7 +87,7 @@ http://10.10.10.247 [200 OK] Bootstrap, Country[RESERVED][ZZ], Email[contact@cro
 ### Certificados
 Estos podrían usarse potencialmente para llevar a cabo un ataque de phishing si esto está dentro del alcance de una evaluación.
 ![Alt text](image.png)
-https://academy.hackthebox.com/storage/modules/77/cert.png
+![screen](https://academy.hackthebox.com/storage/modules/77/cert.png)
 
 ### Robots.txt
  Es común que los sitios web contengan un robots.txt archivo, cuyo propósito es instruir a los rastreadores web de motores de <<búsqueda como Googlebot>> a qué recursos se puede y no se puede acceder para la indexación. El robots.txt el archivo puede proporcionar información valiosa, como la ubicación de archivos privados y páginas de administración. En este caso, vemos que el robots.txt el archivo contiene dos entradas no permitidas.
@@ -99,4 +99,4 @@ disallow: /uploaded_files
  http://10.10.10.121/private Muestra una pagina de inicio de sesion
 
  ### Codigo Fuente
- https://academy.hackthebox.com/storage/modules/77/source.png
+ ![screen](https://academy.hackthebox.com/storage/modules/77/source.png)
