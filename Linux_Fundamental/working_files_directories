@@ -1,0 +1,47 @@
+# Working whit files and directories
+
+### Create, Move, and Copy
+Crear un archivo *VACIO*
+```
+facuuni8@htb[/htb]$ touch <name>
+```
+Crear un directorio
+```
+facuuni8@htb[/htb]$ mkdir <name>
+```
+De puede crear un estructura de directorios padre e hijos agregando la opcion **-p**
+```
+facuuni8@htb[/htb]$ mkdir -p Storage/local/user/documents
+```
+Con el comando **tree** podemos observar la estructura del directorio
+```
+facuuni8@htb[/htb]$ tree .
+.
+├── info.txt
+└── Storage
+    └── local
+        └── user
+            └── documents
+
+4 directories, 1 file
+```
+Lo mismo podemos realizar para crear un archivo vacio. 
+¨En este cado no lleva la opcion **-p** y el directorio agrega al inicio **./**
+```
+facuuni8@htb[/htb]$ touch ./Storage/local/user/userinfo.txt
+```
+
+*MOVER* un archivo o directorio
+```
+facuuni8@htb[/htb]$ mv <file/directory> <renamed file/directory>
+Ej
+facuuni8@htb[/htb]$ mv info.txt information.txt
+```
+*MOVER* uno o mas archivos en simutaneo
+```
+facuuni8@htb[/htb]$ mv information.txt readme.txt Storage/
+```
+*COPIAR* un archivo
+```
+facuuni8@htb[/htb]$ cp Storage/readme.txt Storage/local/
+```
